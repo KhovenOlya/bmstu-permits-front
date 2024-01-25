@@ -1,0 +1,36 @@
+@import "src/Styles/Variables.sass"
+
+.search-bar-wrapper
+	display: flex
+	align-items: center
+	gap: 25px
+
+	@media screen and (max-width: 420px)
+		gap: 15px
+
+	input
+		outline: none
+		padding: 8px 16px
+		font-size: 16px
+		border-radius: 15px
+		transition: all .3s ease
+
+		&:focus
+			border-color: #4169E1
+
+	button
+		padding: 8px 16px
+		border-radius: 15px
+		outline: none
+		border: none
+		cursor: pointer
+		background: #4169E1
+		color: #fff
+		transition: all .3s ease
+
+		&:hover
+			transform: scale(1.1)
+
+		@media screen and (max-width: 420px)
+			padding: 8px
+			height: 35px

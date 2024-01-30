@@ -21,7 +21,7 @@ function App() {
 
                 <div className={"content-wrapper"}>
 
-                    <BrowserRouter basename="/bmstu">
+                    <BrowserRouter basename="/bmstu-permits-front">
 
                         <Breadcrumbs selectedBuilding={selectedBuilding} setSelectedBuilding={setSelectedBuilding}/>
 
